@@ -1,4 +1,8 @@
 header {
   text-align: center;
-  background-image: url("header.jpg");
+  background-image: url(/header.jpg);
+}
+
+link {
+
 }
