@@ -214,7 +214,7 @@ skillsRight{
 
 .projectRightSide{
   position: relative;
-  height: 3000px;
+  height: 2680px;
   width: 50vw;
   float: right;
 }
@@ -281,8 +281,8 @@ skillsRight{
   background-repeat: no-repeat;
   background-position: center center;
   overflow-y: hidden;
-  -webkit-transition: height 2s; /* Safari */
-  transition: height 2s;
+  -webkit-transition: height 5s; /* Safari */
+  transition: height 5s;
   transition-timing-function: ease-in-out;
   -webkit-transition-timing-function: ease-in-out;
   overflow: hidden;
@@ -314,15 +314,220 @@ skillsRight{
   font-family: 'Roboto', sans-serif;
   font-size: 110%;
   color: white;
+  transition: visibility 2s ease-in-out;
 }
 
 .projectOne:hover .hidden1 {
   visibility: visible;
+  transition: visibility 2s ease-in-out;
 }
 
-.projectCopy{
-  height: 5px;
+.projectButton{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: white;
+  cursor: pointer;
+}
+
+.projectTwoContain{
+  height: 650px;
   width: 50vw;
+  overflow: hidden;
+}
+
+.projectTwo{
+  height: 700px;
+  width: 50vw;
+  background-image: url("../photos/netflix-vertical_.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow-y: hidden;
+  -webkit-transition: height 5s; /* Safari */
+  transition: height 5s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  overflow: hidden;
+  /* opacity: .8; */
+}
+
+.projectTwo:hover{
+  height: 800px;
+}
+
+.twoCopy{
   text-align: center;
-  margin-bottom: 0px;
+  height: 50px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 200px;
+  font-size: 150%;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.hidden2{
+  visibility: hidden;
+  height: 90px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 110%;
+  color: white;
+  transition: visibility 2s ease-in-out;
+}
+
+.projectTwo:hover .hidden2 {
+  visibility: visible;
+  transition: visibility 2s ease-in-out;
+}
+
+.projectButton2{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: white;
+  cursor: pointer;
+}
+
+.projectThreeContain{
+  height: 650px;
+  width: 50vw;
+  overflow: hidden;
+}
+
+.projectThree{
+  height: 700px;
+  width: 50vw;
+  background-image: url("../photos/genreLand.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow-y: hidden;
+  -webkit-transition: height 5s; /* Safari */
+  transition: height 5s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  overflow: hidden;
+  /* opacity: .8; */
+}
+
+.projectThree:hover{
+  height: 800px;
+}
+
+.threeCopy{
+  text-align: center;
+  height: 50px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 200px;
+  font-size: 150%;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.hidden3{
+  visibility: hidden;
+  height: 90px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 110%;
+  color: white;
+  transition: visibility 2s ease-in-out;
+}
+
+.projectThree:hover .hidden3 {
+  visibility: visible;
+  transition: visibility 2s ease-in-out;
+}
+
+.projectButton3{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: white;
+  cursor: pointer;
+}
+
+.projectFourContain{
+  height: 730px;
+  width: 50vw;
+  overflow: hidden;
+}
+
+.projectFour{
+  height: 730px;
+  width: 50vw;
+  background-image: url("../photos/shiraLi.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow-y: hidden;
+  -webkit-transition: height 5s; /* Safari */
+  transition: height 5s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  overflow: hidden;
+  /* opacity: .8; */
+}
+
+.projectFour:hover{
+  height: 800px;
+}
+
+.fourCopy{
+  text-align: center;
+  height: 50px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 220px;
+  font-size: 150%;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+
+.hidden4{
+  visibility: hidden;
+  height: 90px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 110%;
+  color: white;
+  transition: visibility 2s ease-in-out;
+}
+
+.projectFour:hover .hidden4 {
+  visibility: visible;
+  transition: visibility 2s ease-in-out;
+}
+
+.projectButton4{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: white;
+  cursor: pointer;
 }
