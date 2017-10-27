@@ -408,7 +408,7 @@ skillsRight{
 .projectThree{
   height: 700px;
   width: 50vw;
-  background-image: url("../photos/genreLand.jpg");
+  background-image: url("../photos/GenreLand.jpg");
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
@@ -500,6 +500,7 @@ skillsRight{
   font-size: 150%;
   font-family: 'Roboto', sans-serif;
   color: white;
+
 }
 
 
