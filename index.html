@@ -5,8 +5,10 @@
   <title>Issac Grunwald: Portfolio</title>
   <link rel="stylesheet" type="text/css" href="style/reset.css">
   <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="stylesheet"  type="text/css" href="style/font-mfizz-2.4.1/font-mfizz.css">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://use.fontawesome.com/8d54b4b4e6.js"></script>
   <script src="./js/main.js" type="text/javascript" charset="utf-8" async defer></script>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,9 +23,9 @@
       <P>Full Stack Web Developer</P>
     </div>
     <ul class="list">
-      <li><a href="#about">About</a></li>
-      <li class="anchor"><a href="#projects">Projects</a></li>
-      <li class="anchor"><a href="#contact">Contact</a></li>
+      <li class="border"><a href="#about">About</a></li>
+      <span class="forwardslash">/</span> <li class="anchor border"><a href="#projects">Projects</a></li>
+      <span class="forwardslash">/</span> <li class="anchor border"><a href="#contact">Contact</a></li>
     </ul>
   </div>
 
@@ -31,28 +33,58 @@
   <div class="secondView">
     <a id="about" type="hidden"></a>
     <div class="sideLeft">
-      <h2>
+      <h2 class="aboutTitle">
         About
       </h2>
       <div class="listContain">
         <ul class="seconList">
-            <li><a href="#about">About</a></li>
-            <li class="secondAnchor"><a href="#projects">Projects</a></li>
-            <li class="secondAnchor"><a href="#contact">Contact</a></li>
+            <li class="border"><a href="#about">About</a></li>
+          <span class="forwardslash2">/</span> <li class="secondAnchor border"><a href="#projects">Projects</a></li>&nbsp;
+          <span class=".forwardslash2">/</span> &nbsp;&nbsp;<li class="secondAnchor border"><a href="#contact">Contact</a></li>
         </ul>
-        </div>
+      </div>
     </div>
     <div class="sideRight">
       <div class="para-1">
-        <p>
-          I am a Junior Web Developer specializing in full stack development. Experienced with all stages of the development
+        <p><span class="bold">
+          I am a Junior Web Developer specializing in full stack development.</span> Experienced with all stages of the development
           cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript, SQL,
           Node.js, and Ruby on Rails. Strong background in project management and customer relations.
         </p>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <p>Hello!</p>
-        <br><br><br><br><br><br>
-        <p>end</p>
+      </div>
+      <div class="headerText2">
+        <h2 class="bold">Why Coding?</h2>
+      </div>
+      <div class="para-2">
+        <p><span class="bold">My love for coding stems from my experience as CEO of ZippySpot and Founder of ShiraLi.</span> 
+          Being in a start-up enviroment required me to play several roles, one being assisting the development team. 
+          Having no prior education in coding, I turned to YouTube & Udemy to get my feet wet. At first, 
+          I started out by creating some simple front end sites but always felt like I was missing something. 
+          It boggled me to try and understand what databases were and how they were created and accessed from the browser. 
+          This pushed me to take the plung and Join GAs bootcamp to get a formal and proper coding education.</p>
+      </div>
+      <div class="headerText3">
+          <h2 class="bold">Skills</h2>
+      </div>
+      <div class="para-3">
+        <ul class="skills">
+          <li><i class="fa fa-html5" aria-hidden="true"></i> HTML</li>
+          <li><i class="fa fa-css3" aria-hidden="true"></i> CSS</li>
+          <li><i class="icon-javascript-alt"></i> JavaScript</li>
+          <li><i class="icon-jquery"></i> JQuery</li>
+          <li><i class="icon-postgres"></i> PostgreSQl</li>
+          <li><i class="icon-nodejs"></i> Node.js</li>
+          <li class="dot"> Express</li>
+        </ul>
+        <ul class="skillsRight">
+          <li class="dot"> EJS</li>
+          <li><i class="icon-reactjs"></i> React.js</li>
+          <li class="dot"> Ajax</li>
+          <li class="dot"> Axios</li>
+          <li><i class="icon-ruby"></i> Ruby</li>
+          <li class="dot"> ERB</li>
+          <li><i class="icon-ruby-on-rails"> Ruby on Rails</i></li>
+        </ul>
       </div>
     </div>
     <div style="clear:both;"></div>
@@ -62,6 +94,42 @@
   <!-- Third View AKA Projects -->
     <div class="thirdView">
       <a id="projects" type="hidden"></a>
+      <div class="projectLeftSide">
+        <h2>Projects</h2>
+        <div class="listContain2">
+            <ul class="thirdList">
+                <li class="border2"><a href="#about">About</a></li>
+                <span class="forwardslash2">/</span><li class="thirdAnchor border2"><a href="#projects">Projects</a></li>
+                <span class="forwardslash2">/</span><li class="thirdAnchor border2"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="projectRightSide">
+        <!-- <a class="" href="http://hangman-seal-76477.bitballoon.com/" target="_blank"> -->
+           <div class="projectOneContain">
+            <div class="projectOne">
+              <div class="oneCopy">
+                <h4>Reflex & Reaction</h4>
+                <h6>Web Game</h6>
+              </div>
+              <div class="hidden1">
+                <p class="projectOneDescrip">A simple and fun game to test ones reflex and reaction time to commands.</p>
+                <input value="View Site" type="button" onclick="openNewWindow('http://hangman-seal-76477.bitballoon.com/')" class="projectButton"/>
+              </div>
+            </div>
+          </div>
+          <!-- </a> -->
+          <div class="projectCopy">
+              
+          </div>
+      </div>
+      <div style="clear:both;"></div>
     </div>
+
+    <div class="fourthView">
+        <a id="contact" type="hidden"></a>
+    </div>
+
+
   </div>
 </body>

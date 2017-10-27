@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 .headerContain{
@@ -23,7 +23,8 @@ html {
   width: 100%;
   text-align: center;
   font-size: 50px;
-  font-family: 'Kaushan Script', cursive;
+  /* font-family: 'Kaushan Script', cursive; */
+  font-family: 'Bitter', serif;
   color: rgb(229, 218, 218);
 }
 
@@ -41,33 +42,52 @@ html {
 }
 
 .list > li > a{
-  color: rgb(247, 72, 78);
+  color: rgb(211, 0, 3);
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
 
-.anchor::before{
+.border{
+  position:relative;
+}
+
+.border:hover::after{
+  content:'';
+  position:absolute;
+  width: 100%;
+  height: 0;    
+  left:0;
+  bottom:-20px;
+  border-bottom: 4px solid rgb(255, 255, 255)  
+}
+
+.forwardslash{
+  margin-right: 7px;
+  margin-left: 7px;
+  color: rgb(247, 72, 78);
+}
+/* .anchor::before{
   content: "/";
   padding: 0 12px 0 9px;
   color: rgb(247, 72, 78)
-}
+} */
 
 .sideLeft{
   position: sticky;
   height: 100vh;
   width: 50vw;
-  background-color: rgb(247, 72, 78);
+  background-color: rgb(211, 0, 3);
   float: left;
   top:0px;
   overflow-x: hidden;
-  /* top: 10px; */
+  z-index: 1000;
 }
 
 .sideRight{
   position: relative;
-  height: 1000px;
+  height: 1500px;
   width: 50vw;
   float: right;
 }
@@ -81,14 +101,69 @@ html {
   color: rgb(229, 218, 218);
 }
 
+.bold{
+  font-weight: bold;
+}
+
 .para-1{
   height: 84px;
   width: 375px;
   margin-left: 150px;
-  margin-top: 40px;
+  margin-top: 60px;
   line-height: 170%;
   font-family: 'Roboto', sans-serif;
   text-align: justify;
+}
+
+.headerText2{
+  height: 10px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 160px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 170%;
+}
+
+.para-2{
+  height: 84px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 80px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+.headerText3{
+  height: 10px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 350px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 170%;
+}
+
+.para-3{
+  height: 84px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 80px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+.skills{
+  float: left;
+  margin-right: 80px;
+}
+
+skillsRight{
+  float: left
 }
 
 .listContain{
@@ -99,15 +174,11 @@ html {
   text-align: center;
 }
 
-.secondAnchor::before{
-  content: "/";
-  padding: 0 12px 0 9px;
-  color: black
-}
 
 .seconList > li{
   display: inline;
   list-style: none;
+  
 }
 
 .seconList > li > a{
@@ -118,8 +189,140 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+
+.forwardslash2{
+  color: black;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
 .thirdView{
   height: 100vh;
   width: 100vw;
-  background-color:black; 
+}
+
+
+.projectLeftSide{
+  position: fixed;
+  height: 100vh;
+  width: 50vw;
+  background-color: white;
+  float: left;
+  /* top: 1550px; */
+  /* overflow-x: hidden; */
+}
+
+.projectRightSide{
+  position: relative;
+  height: 3000px;
+  width: 50vw;
+  float: right;
+}
+
+.projectLeftSide > h2{
+  text-align: center;
+  /* margin-top: 260px; */
+  margin-top: 50%;
+  font-size: 80px;
+  font-family: 'Kaushan Script', cursive;
+  color: black;
+  z-index: 1000;
+}
+
+.listContain2{
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+
+.thirdList > li{
+  display: inline;
+  list-style: none;
+  
+}
+
+.thirdList > li > a{
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.border2{
+  position:relative;
+}
+
+.border2:hover::after{
+  content:'';
+  position:absolute;
+  width: 100%;
+  height: 0;    
+  left:0;
+  bottom:-20px;
+  border-bottom: 4px solid rgb(211, 0, 3);  
+}
+
+.projectOneContain{
+  height: 650px;
+  width: 50vw;
+  overflow: hidden;
+}
+
+.projectOne{
+  height: 700px;
+  width: 50vw;
+  background-image: url("../photos/reflex.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow-y: hidden;
+  -webkit-transition: height 2s; /* Safari */
+  transition: height 2s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  overflow: hidden;
+  /* opacity: .8; */
+}
+
+.projectOne:hover{
+  height: 800px;
+}
+
+.oneCopy{
+  text-align: center;
+  height: 50px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 200px;
+  font-size: 150%;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.hidden1{
+  visibility: hidden;
+  height: 90px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 110%;
+  color: white;
+}
+
+.projectOne:hover .hidden1 {
+  visibility: visible;
+}
+
+.projectCopy{
+  height: 5px;
+  width: 50vw;
+  text-align: center;
+  margin-bottom: 0px;
 }
