@@ -1,11 +1,13 @@
-html {
+html, body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .headerContain{
   height: 100vh;
   width: 100vw;
   background: rgb(41, 41, 41);
+  z-index: 5;
 }
 
 .name{
@@ -13,8 +15,8 @@ html {
   width: 100%;
   text-align: center;
   font-size: 150px;
-  font-family: 'Kaushan Script', cursive;
   padding-top: 10%;
+  font-family: 'Kaushan Script', cursive;
   color: rgb(229, 218, 218);
 }
 
@@ -30,10 +32,10 @@ html {
 
 .list{
   position: absolute;
-  height: 10%;
+  height: 5%;
   width: 100%;
   text-align: center;
-  bottom: 10px;
+  bottom: 30px;
 }
 
 .list > li{
@@ -60,7 +62,7 @@ html {
   height: 0;    
   left:0;
   bottom:-20px;
-  border-bottom: 4px solid rgb(255, 255, 255)  
+  border-bottom: 4px solid rgb(255, 255, 255); 
 }
 
 .forwardslash{
@@ -82,7 +84,7 @@ html {
   float: left;
   top:0px;
   overflow-x: hidden;
-  z-index: 1000;
+  z-index: -1;
 }
 
 .sideRight{
@@ -174,11 +176,9 @@ skillsRight{
   text-align: center;
 }
 
-
 .seconList > li{
   display: inline;
   list-style: none;
-  
 }
 
 .seconList > li > a{
@@ -187,6 +187,20 @@ skillsRight{
   text-decoration: none;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
+}
+
+.border2{
+  position: relative;
+}
+
+.border2:hover::after{
+  content:'';
+  position:absolute;
+  width: 100%;
+  height: 0;    
+  left:0;
+  bottom:-20px;
+  border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 
@@ -229,6 +243,39 @@ skillsRight{
   z-index: 1000;
 }
 
+.newAnchorContain{
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.newList > li{
+  display: inline;
+  list-style: none;
+  
+}
+
+.newList > li > a{
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.b::before{
+  content: "/";
+  padding: 0 12px 0 9px;
+  color: black;
+ }
+
+
+.newList > li > a:hover{
+  color: rgb(211, 0, 3);
+}
+
 .listContain2{
   position: absolute;
   height: 10%;
@@ -253,11 +300,11 @@ skillsRight{
 
 }
 
-.border2{
+.border3{
   position:relative;
 }
 
-.border2:hover::after{
+.border3:hover::after{
   content:'';
   position:absolute;
   width: 100%;
@@ -302,6 +349,7 @@ skillsRight{
   font-size: 150%;
   font-family: 'Roboto', sans-serif;
   color: white;
+  text-transform: uppercase
 }
 
 .hidden1{
@@ -315,6 +363,10 @@ skillsRight{
   font-size: 110%;
   color: white;
   transition: visibility 2s ease-in-out;
+}
+
+.projectOneDescrip{
+  font-family: 'Roboto', sans-serif;
 }
 
 .projectOne:hover .hidden1 {
@@ -368,6 +420,7 @@ skillsRight{
   font-size: 150%;
   font-family: 'Roboto', sans-serif;
   color: white;
+  text-transform: uppercase
 }
 
 .hidden2{
@@ -434,6 +487,7 @@ skillsRight{
   font-size: 150%;
   font-family: 'Roboto', sans-serif;
   color: white;
+  text-transform: uppercase
 }
 
 .hidden3{
@@ -474,7 +528,7 @@ skillsRight{
 .projectFour{
   height: 730px;
   width: 50vw;
-  background-image: url("../photos/shiraLi.jpg");
+  background-image: url("../photos/Perspective-App-Screens-Mock-Up.png");
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
@@ -500,7 +554,7 @@ skillsRight{
   font-size: 150%;
   font-family: 'Roboto', sans-serif;
   color: white;
-
+  text-transform: uppercase
 }
 
 
@@ -531,4 +585,96 @@ skillsRight{
   padding: 1em 2em;
   color: white;
   cursor: pointer;
+}
+
+.leftSideContact{
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  float: left;
+  background-color: rgb(41, 41, 41);
+}
+
+.rightSideContact{
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  float: right;
+}
+
+.leftSideContact > h2{
+  text-align: center;
+  /* margin-top: 260px; */
+  margin-top: 50%;
+  font-size: 80px;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  z-index: 1000;
+}
+
+.listContain4{
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.fourthList > li{
+  display: inline;
+  list-style: none;
+  
+}
+
+.fourthList > li > a{
+  color: rgb(211, 0, 3);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.forwardslash3 {
+  color: rgb(211, 0, 3);
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.border4{
+  position:relative;
+}
+
+.border4:hover::after{
+  content:'';
+  position:absolute;
+  width: 100%;
+  height: 0;    
+  left:0;
+  bottom:-20px;
+  border-bottom: 4px solid white;  
+}
+
+
+/* final view */
+
+.closingContain{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(211, 0, 3);
+}
+
+.closingCopyContain{
+  height: 50vh;
+  width: 50vw;
+  margin-left: 25%;
+  padding-top: 15%;
+}
+
+#closingCopy{
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(229, 218, 218);
+  text-align: center;
+  font-size: 650%;
+  border: 2px solid rgb(41, 41, 41);
+  background-color: rgb(41, 41, 41);
 }

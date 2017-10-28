@@ -1,4 +1,4 @@
-<!-- Welcome to my app! I hope you enjoy it.
+<!-- Welcome to my website! I hope you enjoy it.
 I decided to use standard HTML, CSS, &
 JQuery to build this site. I am not a 
 designer so I can't take credit for the
@@ -11,15 +11,16 @@ Have a wonderfull day!
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Issac Grunwald: Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./photos/Profile_image.ico" />
   <link rel="stylesheet" type="text/css" href="style/reset.css">
   <link rel="stylesheet" type="text/css" href="style/main.css">
   <link rel="stylesheet"  type="text/css" href="style/font-mfizz-2.4.1/font-mfizz.css">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://use.fontawesome.com/8d54b4b4e6.js"></script>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <script src="./js/main.js" type="text/javascript" charset="utf-8" async defer></script>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <!-- Inital View AKA Header -->
@@ -46,9 +47,9 @@ Have a wonderfull day!
       </h2>
       <div class="listContain">
         <ul class="seconList">
-            <li class="border"><a href="#about">About</a></li>
-          <span class="forwardslash2">/</span> <li class="secondAnchor border"><a href="#projects">Projects</a></li>&nbsp;
-          <span class=".forwardslash2">/</span> &nbsp;&nbsp;<li class="secondAnchor border"><a href="#contact">Contact</a></li>
+          <li class="border2"><a href="#about">About</a></li>
+          <span class="forwardslash2">/</span> <li class="secondAnchor border2"><a href="#projects">Projects</a></li>
+          <span class="forwardslash2">/</span> <li class="secondAnchor border2"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -104,16 +105,25 @@ Have a wonderfull day!
       <a id="projects" type="hidden"></a>
       <div class="projectLeftSide">
         <h2>Projects</h2>
+        <div class="newAnchorContain">
+          <ul class="newList">
+            <li class=""><a href="#reflex">Reflex Game</a></li>
+            <li class="thirdAnchor b"><a href="#netflix">Netflix Query</a></li>
+            <li class="thirdAnchor b"><a href="#genre">GenreLand</a></li>
+            <li class="thirdAnchor b"><a href="#shirali">ShiraLi</a></li>
+          </ul>
+        </div>
         <div class="listContain2">
             <ul class="thirdList">
-                <li class="border2"><a href="#about">About</a></li>
-                <span class="forwardslash2">/</span><li class="thirdAnchor border2"><a href="#projects">Projects</a></li>
-                <span class="forwardslash2">/</span><li class="thirdAnchor border2"><a href="#contact">Contact</a></li>
+              <li class="border3"><a href="#about">About</a></li>
+              <span class="forwardslash2">/</span><li class="thirdAnchor border3"><a href="#projects">Projects</a></li>
+              <span class="forwardslash2">/</span><li class="thirdAnchor border3"><a href="#contact">Contact</a></li>
             </ul>
         </div>
       </div>
       <div class="projectRightSide">
         <div class="projectOneContain">
+          <a id="reflex" type="hidden"></a>
           <div class="projectOne">
             <div class="oneCopy">
               <h4>Reflex & Reaction</h4>
@@ -125,6 +135,7 @@ Have a wonderfull day!
             </div>
           </div>
         </div>
+        <a id="netflix" type="hidden"></a>
         <div class="projectTwoContain">
           <div class="projectTwo">
             <div class="twoCopy">
@@ -138,6 +149,7 @@ Have a wonderfull day!
           </div>
 
         </div>
+          <a id="genre" type="hidden"></a>
           <div class="projectThreeContain">
             <div class="projectThree">
               <div class="threeCopy">
@@ -150,6 +162,7 @@ Have a wonderfull day!
               </div>
             </div>
           </div>
+          <a id="shirali" type="hidden"></a>
           <div class="projectFourContain">
               <div class="projectFour">
                 <div class="fourCopy">
@@ -169,9 +182,38 @@ Have a wonderfull day!
 
     <!-- Fourth View AKA Contact -->
     <div class="fourthView">
-        <a id="contact" type="hidden"></a>
+      <a id="contact" type="hidden"></a>
+      <div class="leftSideContact">
+        <h2 class="contactTitle">
+          Contact
+        </h2>
+        <div class="listContain4">
+          <ul class="fourthList">
+            <li class="border4"><a href="#about">About</a></li>
+            <span class="forwardslash3">/</span> <li class="fourthAnchor border4"><a href="#projects">Projects</a></li>
+            <span class="forwardslash3">/</span> <li class="fourthAnchor border4"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rightSideContact">
+
+      </div>
+      <div style="clear:both;"></div>
     </div>
 
-
+    <!-- Final View  -->
+    <div class="closingContain">
+      <div class="closingCopyContain">
+        <p id="closingCopy">
+          Thank You<br>
+          For <br>
+          Visiting!
+        </p>
+      </div>
+    </div>
   </div>
+  <script src="./js/zenscroll-latest/zenscroll-min.js"></script>
+  <script>
+    zenscroll.setup(null, 0)
+  </script>
 </body>
