@@ -4,10 +4,11 @@ html, body {
 }
 
 .headerContain{
+  position: relative;
   height: 100vh;
   width: 100vw;
   background: rgb(41, 41, 41);
-  z-index: 5;
+  z-index: 950;
 }
 
 .name{
@@ -84,7 +85,7 @@ html, body {
   float: left;
   top:0px;
   overflow-x: hidden;
-  z-index: -1;
+  z-index: 900;
 }
 
 .sideRight{
@@ -101,6 +102,47 @@ html, body {
   font-size: 80px;
   font-family: 'Kaushan Script', cursive;
   color: rgb(229, 218, 218);
+}
+
+.listContain{
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.seconList > li{
+  display: inline;
+  list-style: none;
+}
+
+.seconList > li > a{
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.border2{
+  position:relative;
+}
+
+.border2:hover::after{
+  content:'';
+  position:absolute;
+  width: 100%;
+  height: 0;    
+  left:0;
+  bottom:-20px;
+  border-bottom: 4px solid rgb(255, 255, 255); 
+}
+
+.forwardslash2{
+  color: black;
+  margin-right: 7px;
+  margin-left: 7px;
 }
 
 .bold{
@@ -168,53 +210,10 @@ skillsRight{
   float: left
 }
 
-.listContain{
-  position: absolute;
-  height: 10%;
-  width: 100%;
-  bottom: 10px;
-  text-align: center;
-}
-
-.seconList > li{
-  display: inline;
-  list-style: none;
-}
-
-.seconList > li > a{
-  color: black;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.border2{
-  position: relative;
-}
-
-.border2:hover::after{
-  content:'';
-  position:absolute;
-  width: 100%;
-  height: 0;    
-  left:0;
-  bottom:-20px;
-  border-bottom: 4px solid rgb(255, 255, 255);
-}
-
-
-.forwardslash2{
-  color: black;
-  margin-right: 7px;
-  margin-left: 7px;
-}
-
 .thirdView{
   height: 100vh;
   width: 100vw;
 }
-
 
 .projectLeftSide{
   position: fixed;
@@ -297,7 +296,6 @@ skillsRight{
   text-decoration: none;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .border3{
@@ -654,6 +652,89 @@ skillsRight{
   border-bottom: 4px solid white;  
 }
 
+.sentence2{
+  height: 84px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 80px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+.name2{
+  height: 10px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 100px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 120%;
+}
+
+.title2{
+  height: 10px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 50px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 100%;
+}
+
+.email{
+  height: 10px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 20px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 100%;
+}
+
+.email > a{
+  text-decoration: none;
+  color: rgb(211, 0, 3);
+  text-decoration: underline;
+}
+
+.email > a:hover{
+  text-decoration: none;
+}
+
+.number{
+  height: 10px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 20px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 100%;
+}
+
+.number > a{
+  text-decoration: none;
+  color: black;
+}
+
+.contactList{
+  height: 84px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 80px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+.icons > li{
+  display: inline;
+  cursor: pointer;
+}
 
 /* final view */
 

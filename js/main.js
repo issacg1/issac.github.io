@@ -1,12 +1,12 @@
+
 function openNewWindow(url){
 	window.open(url, "_blank")
 }
 
 
-
-
 $(document).ready(function(){
 		console.log("up and running!");
+		$(window).scrollTop(0);
 		
 
 		// add $(window).width(); as a conditional for responsivness
