@@ -221,8 +221,6 @@ skillsRight{
   width: 50vw;
   background-color: white;
   float: left;
-  /* top: 1550px; */
-  /* overflow-x: hidden; */
 }
 
 .projectRightSide{
@@ -693,6 +691,7 @@ skillsRight{
   font-family: 'Roboto', sans-serif;
   text-align: justify;
   font-size: 100%;
+  cursor: pointer;
 }
 
 .email > a{
@@ -714,11 +713,25 @@ skillsRight{
   font-family: 'Roboto', sans-serif;
   text-align: justify;
   font-size: 100%;
+  cursor: pointer;
 }
 
 .number > a{
   text-decoration: none;
   color: black;
+}
+
+.resume{
+  height: 10px;
+  width: 375px;
+  margin-left: 150px;
+  margin-top: 20px;
+  line-height: 170%;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 100%;
+  cursor: pointer;
+  color: rgb(211, 0, 3);
 }
 
 .contactList{

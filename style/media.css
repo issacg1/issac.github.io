@@ -1,0 +1,217 @@
+@media only screen and (max-width:1080px){
+	.email, .number, .contactList, .title2, .name2, .sentence2, .hidden4, .fourCopy, .hidden3, .threeCopy,
+	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume{
+		margin-left: 100px;
+	}
+}
+
+@media only screen and (max-width:970px){
+	.email, .number, .contactList, .title2, .name2, .sentence2, .hidden4, .fourCopy, .hidden3, .threeCopy,
+	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume{
+		margin-left: 50px;
+	}
+
+	.name{
+		font-size: 100px;
+	}
+
+	.title{
+		font-size: 35px;
+	}
+}
+
+@media only screen and (max-width:856px){
+	.email, .number, .contactList, .title2, .name2, .sentence2, .hidden4, .fourCopy, .hidden3, .threeCopy,
+	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume{
+		margin-left: 25px;
+	}
+
+	.name{
+		font-size: 100px;
+	}
+
+	.title{
+		font-size: 35px;
+	}
+}
+
+@media only screen and (max-width:810px){
+	.sideLeft{
+		position: relative;
+		height: 100vh;
+		width: 100vw;
+	}
+
+	.sideLeft > h2{
+		text-align: center;
+		margin-top: 40%;
+	}
+
+	.sideRight{
+		position: relative;
+		height: 1500px;
+		width: 100vw;
+	}
+
+	.para-1{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+	}
+	
+	.headerText2{
+		height: 10px;
+		width: 50vw;
+		margin-left: 25%;
+	}
+	
+	.para-2{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+	}
+	
+	.headerText3{
+		height: 10px;
+		width: 50vw;
+		margin-left: 25%;
+	}
+	
+	.para-3{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+	}
+	
+	.skills{
+		margin-right: 25%;
+	}
+
+	.projectLeftSide{
+		position: relative;
+		height: 100vh;
+		width: 100vw;
+		background-color: white;
+	}
+	
+	.projectRightSide{
+		position: relative;
+		height: 2600px;
+		width: 100vw;
+	}
+
+	.projectLeftSide > h2{
+		text-align: center;
+		margin-top: 40%;
+	}
+
+	.projectOneContain, .projectTwoContain, .projectThreeContain, .projectFourContain{
+		height: 650px;
+		width: 100vw;
+		overflow: hidden;
+	}
+	
+	.projectOne, .projectTwo, .projectThree, .projectFour{
+		height: 700px;
+		width: 100vw;
+	}
+	
+	.oneCopy, .twoCopy, .threeCopy, .fourCopy{
+		text-align: center;
+		height: 50px;
+		width: 100vw;
+	}
+	
+	.hidden1{
+		visibility: hidden;
+		height: 90px;
+		width: 100vh;
+		margin-left: 60px;
+	}
+	
+	.hidden2{
+		visibility: hidden;
+		height: 90px;
+		width: 100vh;
+		margin-left: 80px;
+	}
+	
+	.hidden3{
+		visibility: hidden;
+		height: 90px;
+		width: 100vw;
+		margin-left: 20px;
+	}
+
+	.hidden4{
+		visibility: hidden;
+		height: 90px;
+		width: 100vw;
+		margin-left: 20px;
+	}
+
+	.leftSideContact{
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	.rightSideContact{
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	.leftSideContact > h2{
+		text-align: center;
+		margin-top: 40%;
+	}
+
+	.sentence2{
+		height: 84px;
+		width: 100vw;
+		margin-left: 150px;
+		margin-top: 100px;
+	}
+	
+	.name2{
+		height: 10px;
+		width: 100vw;
+		margin-left: 150px;
+		margin-top: 50px;
+	}
+	
+	.title2{
+		height: 10px;
+		width: 100vw;
+		margin-left: 150px;
+		margin-top: 50px;
+	}
+	
+	.email{
+		height: 10px;
+		width: 100vw;
+		margin-left: 150px;
+		margin-top: 20px;
+	}
+	
+	.number{
+		height: 10px;
+		width: 100vw;
+		margin-left: 150px;
+		margin-top: 20px;
+	}
+	.resume{
+		height: 10px;
+		width: 100vw;
+		margin-left: 150px;
+		margin-top: 20px;
+	}
+	
+	.contactList{
+		height: 84px;
+		width: 100vw;
+		margin-left: 150px;
+		margin-top: 80px;
+	}
+}
