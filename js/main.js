@@ -6,7 +6,7 @@ function openNewWindow(url){
 
 $(document).ready(function(){
 		console.log("up and running!");
-		// $(window).scrollTop(0);
+		$(window).scrollTop(0);
 
 		var width = $(window).width();
 
