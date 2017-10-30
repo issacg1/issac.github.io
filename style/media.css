@@ -134,7 +134,7 @@
 	.hidden2{
 		visibility: hidden;
 		height: 90px;
-		width: 100vh;
+		width: 100vw;
 	}
 	
 	.hidden3{
@@ -222,10 +222,158 @@
 	}
 }
 
-@media only screen and (max-width:675px){
+@media only screen and (max-width:690px){
 	.hidden1, .hidden2, .hidden3, .hidden4{
 		font-size: 90%;
 	}
+}
+
+@media only screen and (max-width:600px){
+
+	.name{
+		font-size: 60px;
+		padding-top: 35%;
+	}
+
+	.title{
+		position: absolute;
+		top: 250px;
+		font-size: 25px;
+	}
+
+	.sideRight{
+		position: relative;
+		height: 2500px;
+		width: 100vw;
+	}
+
+	.para-1{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+		padding-bottom: 20%;
+	}
+	
+	.headerText2{
+		height: 10px;
+		width: 50vw;
+		margin-left: 25%;
+		font-size: 25px;
+	}
+	
+	.para-2{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+		font-size: 15px;
+		padding-bottom: 20%;
+	}
+	
+	.headerText3{
+		height: 10px;
+		width: 50vw;
+		margin-left: 25%;
+		padding-top: 30px;
+		font-size: 25px;
+	}
+	
+	.para-3{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+		font-size: 15px;
+		padding-bottom: 65%;
+	}
+
+	.skills{
+		float: none;
+		margin-right: 80px;
+	}
+	
+	skillsRight{
+		float: none;
+	}
+
+	.para-4{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+	}
+	
+	.hidden1, .hidden2, .hidden3, .hidden4{
+		visibility: hidden;
+		height: 90px;
+		width: 100vw;
+		text-align: center;
+		overflow-wrap: break-word;
+		margin-left: 0px;
+	}
+
+
+	.sentence{
+		height: 84px;
+		width: 100vw;
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+
+	.sentence2{
+		height: 84px;
+		width: 100vw;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	.name2{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 50px;
+	}
+	
+	.title2{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 50px;
+	}
+	
+	.email{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 20px;
+	}
+	
+	.number{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 20px;
+	}
+	.resume{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 20px;
+	}
+	
+	.contactList{
+		height: 84px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 80px;
+	}
+
+	.closingCopyContain{
+		padding-top: 50%;
+	}
+
+	#closingCopy{
+		font-size: 55px;
+	}
+
+
 }
 
 @media only screen and (max-width:420px){
