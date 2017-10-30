@@ -1,13 +1,13 @@
 @media only screen and (max-width:1080px){
 	.email, .number, .contactList, .title2, .name2, .sentence2, .hidden4, .fourCopy, .hidden3, .threeCopy,
-	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume{
+	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume, .para-4, .sentence{
 		margin-left: 100px;
 	}
 }
 
 @media only screen and (max-width:970px){
 	.email, .number, .contactList, .title2, .name2, .sentence2, .hidden4, .fourCopy, .hidden3, .threeCopy,
-	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume{
+	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume, .para-4, .sentence{
 		margin-left: 50px;
 	}
 
@@ -22,7 +22,7 @@
 
 @media only screen and (max-width:856px){
 	.email, .number, .contactList, .title2, .name2, .sentence2, .hidden4, .fourCopy, .hidden3, .threeCopy,
-	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume{
+	.hidden2, .twoCopy, .hidden1, .oneCopy, .para-3, .headerText3, .para-2, .headerText2, .para-1, .resume, .para-4, .sentence{
 		margin-left: 25px;
 	}
 
@@ -34,6 +34,8 @@
 		font-size: 35px;
 	}
 }
+
+/* Add these below   */
 
 @media only screen and (max-width:810px){
 	.sideLeft{
@@ -75,9 +77,10 @@
 		height: 10px;
 		width: 50vw;
 		margin-left: 25%;
+		padding-top: 30px;
 	}
 	
-	.para-3{
+	.para-3, .para-4{
 		height: 84px;
 		width: 50vw;
 		margin-left: 25%;
@@ -126,28 +129,24 @@
 		visibility: hidden;
 		height: 90px;
 		width: 100vh;
-		margin-left: 60px;
 	}
 	
 	.hidden2{
 		visibility: hidden;
 		height: 90px;
 		width: 100vh;
-		margin-left: 80px;
 	}
 	
 	.hidden3{
 		visibility: hidden;
 		height: 90px;
 		width: 100vw;
-		margin-left: 20px;
 	}
 
 	.hidden4{
 		visibility: hidden;
 		height: 90px;
 		width: 100vw;
-		margin-left: 20px;
 	}
 
 	.leftSideContact{
@@ -167,51 +166,254 @@
 		margin-top: 40%;
 	}
 
+	.sentence{
+		height: 84px;
+		width: 100vw;
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+
 	.sentence2{
 		height: 84px;
 		width: 100vw;
-		margin-left: 150px;
-		margin-top: 100px;
+		margin-left: 100px;
+		margin-top: 20px;
 	}
 	
 	.name2{
 		height: 10px;
 		width: 100vw;
-		margin-left: 150px;
+		margin-left: 100px;
 		margin-top: 50px;
 	}
 	
 	.title2{
 		height: 10px;
 		width: 100vw;
-		margin-left: 150px;
+		margin-left: 100px;
 		margin-top: 50px;
 	}
 	
 	.email{
 		height: 10px;
 		width: 100vw;
-		margin-left: 150px;
+		margin-left: 100px;
 		margin-top: 20px;
 	}
 	
 	.number{
 		height: 10px;
 		width: 100vw;
-		margin-left: 150px;
+		margin-left: 100px;
 		margin-top: 20px;
 	}
 	.resume{
 		height: 10px;
 		width: 100vw;
-		margin-left: 150px;
+		margin-left: 100px;
 		margin-top: 20px;
 	}
 	
 	.contactList{
 		height: 84px;
 		width: 100vw;
-		margin-left: 150px;
+		margin-left: 100px;
 		margin-top: 80px;
+	}
+}
+
+@media only screen and (max-width:675px){
+	.hidden1, .hidden2, .hidden3, .hidden4{
+		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width:420px){
+	.name{
+		padding-top: 35%;
+		font-size: 50px;
+	}
+
+	.title{
+		position: absolute;
+		font-size: 25px;
+		top: 200px;
+	}
+
+	.sideRight{
+		position: relative;
+		height: 2500px;
+		width: 100vw;
+	}
+
+	.para-1{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+		padding-bottom: 40%;
+	}
+	
+	.headerText2{
+		height: 10px;
+		width: 50vw;
+		margin-left: 25%;
+		font-size: 25px;
+	}
+	
+	.para-2{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+		font-size: 15px;
+		padding-bottom: 70%;
+	}
+	
+	.headerText3{
+		height: 10px;
+		width: 50vw;
+		margin-left: 25%;
+		padding-top: 30px;
+		font-size: 25px;
+	}
+	
+	.para-3{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+		font-size: 15px;
+		padding-bottom: 65%;
+	}
+
+	.skills{
+		float: none;
+		margin-right: 80px;
+	}
+	
+	skillsRight{
+		float: none;
+	}
+
+	.para-4{
+		height: 84px;
+		width: 50vw;
+		margin-left: 25%;
+	}
+
+	.projectRightSide{
+		position: relative;
+		height: 2600px;
+		width: 100vw;
+	}
+
+	.projectLeftSide > h2{
+		text-align: center;
+		margin-top: 40%;
+	}
+
+	.projectOneContain, .projectTwoContain, .projectThreeContain, .projectFourContain{
+		height: 650px;
+		width: 100vw;
+		overflow: hidden;
+	}
+	
+	.projectOne, .projectTwo, .projectThree, .projectFour{
+		height: 700px;
+		width: 100vw;
+	}
+	
+	.oneCopy, .twoCopy, .threeCopy, .fourCopy{
+		text-align: center;
+		height: 50px;
+		width: 100vw;
+		font-size: 25px;
+	}
+	
+	.hidden1, .hidden2, .hidden3, .hidden4{
+		visibility: hidden;
+		height: 90px;
+		width: 100vw;
+		text-align: center;
+		overflow-wrap: break-word;
+		margin-left: 0px;
+	}
+
+	.leftSideContact{
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	.rightSideContact{
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	.leftSideContact > h2{
+		text-align: center;
+		margin-top: 40%;
+	}
+
+	.sentence{
+		height: 84px;
+		width: 100vw;
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+
+	.sentence2{
+		height: 84px;
+		width: 100vw;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	.name2{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 50px;
+	}
+	
+	.title2{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 50px;
+	}
+	
+	.email{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 20px;
+	}
+	
+	.number{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 20px;
+	}
+	.resume{
+		height: 10px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 20px;
+	}
+	
+	.contactList{
+		height: 84px;
+		width: 100vw;
+		margin-left: 5px;
+		margin-top: 80px;
+	}
+
+	.closingCopyContain{
+		padding-top: 50%;
+	}
+
+	#closingCopy{
+		font-size: 55px;
 	}
 }
