@@ -3,6 +3,15 @@ function openNewWindow(url){
 	window.open(url, "_blank")
 };
 
+function iosHover (cl){
+	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+	if(iOS){
+		var clickedClass = document.querySelector("." + cl);
+		var hidden = clickedClass.children[1].className;
+		document.querySelector('.' + hidden).setAttribute('style', "visibility: visible; transition: visibility 2s ease-in-out;");
+	};
+};
+
 
 $(document).ready(function(){
 		console.log("up and running!");
@@ -13,7 +22,6 @@ $(document).ready(function(){
 	$(window).scroll(function (event) {
 		var scrollVal = $(document).scrollTop().valueOf();
 		width = $(window).width();
-		console.log(scrollVal);
 
 		if(scrollVal < 1500 && width > 810){	
 			$(".sideLeft").css({
